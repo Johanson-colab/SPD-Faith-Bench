@@ -2,6 +2,11 @@
 
 A comprehensive benchmark for evaluating vision-language models' faithfulness in spot-the-difference tasks.
 
+## Dataset
+
+The SPD-Faith-Bench dataset is available on Hugging Face:  
+https://huggingface.co/datasets/Jackson-Lv/SPD-Faith-Bench
+
 ## Project Structure
 
 ```
@@ -201,3 +206,8 @@ python mechanism_analysis/demo.py \
 - Python >= 3.8
 - CUDA >= 11.8
 - GPU Memory >= 24GB (recommended)
+
+## Acknowledgements
+
+We thank the authors of the TAM (Token Activation Map) paper for their inspiring work and for providing ideas that motivated parts of our mechanism analysis. We are grateful for their contributions to interpretability research in vision-language models.  
+Project page: https://github.com/xmed-lab/TAM
