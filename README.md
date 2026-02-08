@@ -4,8 +4,9 @@ A comprehensive benchmark for evaluating vision-language models' faithfulness in
 
 ## Dataset
 
-The SPD-Faith-Bench dataset is available on Hugging Face:  
-https://huggingface.co/datasets/Jackson-Lv/SPD-Faith-Bench
+The SPD-Faith-Bench dataset is available on Hugging Face:
+
+[<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="24"/> **SPD-Faith-Bench**](https://huggingface.co/datasets/Jackson-Lv/SPD-Faith-Bench)
 
 ## Project Structure
 
