@@ -1,6 +1,6 @@
 # SPD-Faith: Spot-the-Difference Faithfulness Benchmark
 
-A comprehensive benchmark for evaluating vision-language models' faithfulness in spot-the-difference tasks.
+A comprehensive benchmark for evaluating vision-language models' faithfulness in spot-the-difference task.
 
 ## Dataset
 
@@ -11,23 +11,39 @@ The SPD-Faith-Bench dataset is available on Hugging Face:
 ## Project Structure
 
 ```
-SPD-Faith/
-├── evaluation/                       # Evaluation modules
-│   ├── eval_multi_diff_metrics.py   # Difference detection metrics (DQR, DS, TF1, CF1)
-│   ├── eval_cot_faithfulness.py     # CoT faithfulness evaluation (DRF)
-│   ├── eval_consistency_rate.py     # Consistency rate evaluation (CR)
-│   └── eval_cosine.py               # Hidden state cosine similarity analysis
-├── mechanism_analysis/               # Mechanism analysis modules
+SPD-Faith-Clean/
+├── analysis/                         # Mechanism analysis modules
 │   ├── analyze_layer_changes.py     # MHA/FFN layer change analysis
-│   ├── layer_analysis_generation.py # Generation-phase attention analysis
-│   ├── neuron_activation.py         # Neuron activation analysis
-│   ├── tam.py                       # Token Activation Map
-│   └── demo.py                      # Quick demo script
-├── utils/                           # Utility modules
-│   ├── model_utils.py               # Model loading utilities
-│   └── visualization.py             # Visualization utilities
-├── requirements.txt                 # Python dependencies
-└── README.md                        # This file
+│   ├── layer_analysis_generation.py  # Generation-phase attention analysis
+│   ├── neuron_activation.py          # Neuron activation analysis
+│   ├── tam.py                        # Token Activation Map
+│   └── demo.py                       # Quick demo script
+├── data/                             # Data and pipeline
+│   ├── data_pipeline/                # Data generation pipeline
+│   │   ├── api_client.py
+│   │   ├── config.py
+│   │   ├── generator.py
+│   │   └── main.py
+│   └── examples/                    # Sample images (easy / medium / hard / multi_diff)
+│       ├── easy/
+│       ├── medium/
+│       ├── hard/
+│       └── multi_diff/
+├── eval/                             # Evaluation modules
+│   ├── eval_multi_diff_metrics.py    # Difference detection metrics (DQR, DS, TF1, CF1)
+│   ├── eval_cot_faithfulness.py      # CoT faithfulness evaluation (DRF)
+│   └── eval_consistency_rate.py      # Consistency rate evaluation (CR)
+├── fig/                              # Figures
+│   ├── fig1.png
+│   ├── fig2.png
+│   ├── fig3.png
+│   └── fig4.png
+├── utils/                            # Utility modules
+│   ├── model_utils.py                # Model loading utilities
+│   └── visualization.py              # Visualization utilities
+├── requirements.txt                  # Python dependencies
+├── LICENSE
+└── README.md                         # This file
 ```
 
 ## Quick Start
