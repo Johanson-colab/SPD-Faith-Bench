@@ -11,18 +11,17 @@ The SPD-Faith-Bench dataset is available on Hugging Face:
 ## Preview
 
 <p align="center">
-  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" height="220"/>
+  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" height="300"/>
   &nbsp;
-  <img src="data/examples/hard/13923_13923_color2.jpg" alt="Hard split example" height="220"/>
+  <img src="data/examples/hard/13923_13923_color2.jpg" alt="Hard split example" height="300"/>
   &nbsp;
-  <img src="data/examples/multi_diff/2.jpg" alt="Multi-diff example" height="220"/>
+  <img src="data/examples/multi_diff/2.jpg" alt="Multi-diff example" height="300"/>
 </p>
-<p align="center"><em>Row 1: <code>fig/fig1.png</code> · <code>data/examples/hard/13923_13923_color2.jpg</code> · <code>data/examples/multi_diff/2.jpg</code> (same display height).</em></p>
 
 <p align="center">
-  <img src="fig/figure3.png" alt="Figure 3 (from paper PDF)" width="55%"/>
+  <img src="fig/figure3.png" alt="Pipeline of data construction" width="88%"/>
 </p>
-<p align="center"><em>Row 2: <code>fig/figure3.png</code> (from <code>Figure3.pdf</code>).</em></p>
+<p align="center"><em>Pipeline of data construction.</em></p>
 
 ## Project Structure
 
