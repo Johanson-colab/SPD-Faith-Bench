@@ -19,9 +19,8 @@ The SPD-Faith-Bench dataset is available on Hugging Face:
 </p>
 
 <p align="center">
-  <img src="fig/figure3.png" alt="Pipeline of data construction" width="88%"/>
+  <img src="fig/figure3.png" alt="Data construction overview" width="88%"/>
 </p>
-<p align="center"><em>Pipeline of data construction.</em></p>
 
 ## Project Structure
 
@@ -53,7 +52,7 @@ SPD-Faith-Clean/
 │   ├── fig2.png
 │   ├── fig3.png
 │   ├── fig4.png
-│   └── figure3.png                  # Data construction pipeline figure (README preview)
+│   └── figure3.png                  # Infographic for README preview
 ├── utils/                            # Utility modules
 │   ├── model_utils.py                # Model loading utilities
 │   └── visualization.py              # Visualization utilities
