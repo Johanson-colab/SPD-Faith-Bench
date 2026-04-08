@@ -11,20 +11,18 @@ The SPD-Faith-Bench dataset is available on Hugging Face:
 ## Preview
 
 <p align="center">
-  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" width="40%"/>
+  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" height="220"/>
   &nbsp;
-  <img src="fig/figure3.png" alt="Figure 3 (from paper PDF)" width="40%"/>
+  <img src="data/examples/hard/13923_13923_color2.jpg" alt="Hard split example" height="220"/>
+  &nbsp;
+  <img src="data/examples/multi_diff/2.jpg" alt="Multi-diff example" height="220"/>
 </p>
-<p align="center"><em>Left: <code>fig/fig1.png</code> · Right: <code>fig/figure3.png</code> (exported from <code>Figure3.pdf</code>).</em></p>
+<p align="center"><em>Row 1: <code>fig/fig1.png</code> · <code>data/examples/hard/13923_13923_color2.jpg</code> · <code>data/examples/multi_diff/2.jpg</code> (same display height).</em></p>
 
 <p align="center">
-  <img src="data/examples/easy/1818.jpg" alt="Easy split example" width="30%"/>
-  &nbsp;
-  <img src="data/examples/medium/2153_1.jpg" alt="Medium split example" width="30%"/>
-  &nbsp;
-  <img src="data/examples/hard/13923_13923_color2.jpg" alt="Hard split example" width="30%"/>
+  <img src="fig/figure3.png" alt="Figure 3 (from paper PDF)" width="55%"/>
 </p>
-<p align="center"><em>Sample images from <code>data/examples/</code> (easy · medium · hard).</em></p>
+<p align="center"><em>Row 2: <code>fig/figure3.png</code> (from <code>Figure3.pdf</code>).</em></p>
 
 ## Project Structure
 
