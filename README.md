@@ -11,7 +11,7 @@ The SPD-Faith-Bench dataset is available on Hugging Face:
 ## Preview
 
 <p align="center">
-  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" width="58%"/>
+  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" width="42%"/>
 </p>
 <p align="center"><em>Overview figure from <code>fig/fig1.png</code>.</em></p>
 
