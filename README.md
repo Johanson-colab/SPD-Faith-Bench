@@ -11,9 +11,11 @@ The SPD-Faith-Bench dataset is available on Hugging Face:
 ## Preview
 
 <p align="center">
-  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" width="42%"/>
+  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" width="40%"/>
+  &nbsp;
+  <img src="fig/figure3.png" alt="Figure 3 (from paper PDF)" width="40%"/>
 </p>
-<p align="center"><em>Overview figure from <code>fig/fig1.png</code>.</em></p>
+<p align="center"><em>Left: <code>fig/fig1.png</code> · Right: <code>fig/figure3.png</code> (exported from <code>Figure3.pdf</code>).</em></p>
 
 <p align="center">
   <img src="data/examples/easy/1818.jpg" alt="Easy split example" width="30%"/>
@@ -53,7 +55,8 @@ SPD-Faith-Clean/
 │   ├── fig1.png
 │   ├── fig2.png
 │   ├── fig3.png
-│   └── fig4.png
+│   ├── fig4.png
+│   └── figure3.png                  # High-res export of Figure3.pdf (README preview)
 ├── utils/                            # Utility modules
 │   ├── model_utils.py                # Model loading utilities
 │   └── visualization.py              # Visualization utilities
