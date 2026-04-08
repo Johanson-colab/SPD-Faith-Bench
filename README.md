@@ -53,7 +53,7 @@ SPD-Faith-Clean/
 │   ├── fig2.png
 │   ├── fig3.png
 │   ├── fig4.png
-│   └── figure3.png                  # High-res export of Figure3.pdf (README preview)
+│   └── figure3.png                  # Data construction pipeline figure (README preview)
 ├── utils/                            # Utility modules
 │   ├── model_utils.py                # Model loading utilities
 │   └── visualization.py              # Visualization utilities
