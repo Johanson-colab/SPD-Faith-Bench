@@ -8,6 +8,22 @@ The SPD-Faith-Bench dataset is available on Hugging Face:
 
 [<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="24"/> **SPD-Faith-Bench**](https://huggingface.co/datasets/Jackson-Lv/SPD-Faith-Bench)
 
+## Preview
+
+<p align="center">
+  <img src="fig/fig1.png" alt="SPD-Faith benchmark overview (fig1)" width="90%"/>
+</p>
+<p align="center"><em>Overview figure from <code>fig/fig1.png</code>.</em></p>
+
+<p align="center">
+  <img src="data/examples/easy/1818.jpg" alt="Easy split example" width="30%"/>
+  &nbsp;
+  <img src="data/examples/medium/2153_1.jpg" alt="Medium split example" width="30%"/>
+  &nbsp;
+  <img src="data/examples/hard/13923_13923_color2.jpg" alt="Hard split example" width="30%"/>
+</p>
+<p align="center"><em>Sample images from <code>data/examples/</code> (easy · medium · hard).</em></p>
+
 ## Project Structure
 
 ```
